@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="testngrecap.paracticeTNG2">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testngrecap.paracticeTNG2 -->
+      <class name="testngrecap.paracticeTNG1">
+        <methods>
+          <include name="setup"/>
+          <include name="checkIphonePrice"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testngrecap.paracticeTNG1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

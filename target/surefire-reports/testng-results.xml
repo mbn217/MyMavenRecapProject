@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="42226" started-at="2021-04-02T04:51:39Z" finished-at="2021-04-02T04:52:21Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="42226" started-at="2021-04-02T04:51:39Z" finished-at="2021-04-02T04:52:21Z">
+      <class name="testngrecap.paracticeTNG2">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testngrecap.paracticeTNG2@234bef66]" name="setup" is-config="true" duration-ms="2792" started-at="2021-04-02T04:52:05Z" finished-at="2021-04-02T04:52:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="clickOnSell()[pri:0, instance:testngrecap.paracticeTNG2@234bef66]" name="clickOnSell" duration-ms="6983" started-at="2021-04-02T04:52:08Z" finished-at="2021-04-02T04:52:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSell -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testngrecap.paracticeTNG2@234bef66]" name="tearDown" is-config="true" duration-ms="6261" started-at="2021-04-02T04:52:15Z" finished-at="2021-04-02T04:52:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testngrecap.paracticeTNG2 -->
+      <class name="testngrecap.paracticeTNG1">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testngrecap.paracticeTNG1@9f70c54]" name="setup" is-config="true" duration-ms="4450" started-at="2021-04-02T04:51:39Z" finished-at="2021-04-02T04:51:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkIphonePrice()[pri:0, instance:testngrecap.paracticeTNG1@9f70c54]" name="checkIphonePrice" duration-ms="14874" started-at="2021-04-02T04:51:43Z" finished-at="2021-04-02T04:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIphonePrice -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testngrecap.paracticeTNG1@9f70c54]" name="tearDown" is-config="true" duration-ms="6822" started-at="2021-04-02T04:51:58Z" finished-at="2021-04-02T04:52:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testngrecap.paracticeTNG1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
